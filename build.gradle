@@ -41,6 +41,11 @@ dependencies {
 	// 테스트에서 lombok 사용
 	testCompileOnly 'org.projectlombok:lombok'
 	testAnnotationProcessor 'org.projectlombok:lombok'
+	// AssertJ for fluent assertions
+	testImplementation 'org.assertj:assertj-core'
+	// Mockito for mocking
+	testImplementation 'org.mockito:mockito-core'
+
 
 }
 
